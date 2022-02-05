@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: hsl(225, 100%, 98%);
+    background-image: url("../img/pattern-background-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: #fff;
+    width: 330px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.container h4 {
+    font-size: 1.5rem;
+    padding: 1rem;
+
+}
+
+.container p {
+    color: hsl(224, 23%, 55%);
+    font-size: 0.8rem;
+    padding: 0 2.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.card {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.price-card {
+    margin-right: 0.6rem;
+}
+
+.price-card {
+    color: hsl(223, 47%, 23%);
+    margin-top: 0.5rem;
+}
+
+.card a {
+    font-size: 0.8rem;
+}
+
+.price-card h5 {
+    font-size: 0.9rem;
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.price-card p {
+    font-size: 0.8rem;
+    margin-left: -1.5rem;
+}
+
+.price-btn {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.6rem 4.5rem;
+    box-shadow: 0 10px 5px hsl(225, 100%, 94%);
+}
+
+.cancel-order {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+footer{
+    height: 2rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-weight: 700;
+
+}
+footer span{
+    color: orangered;
+    
+   
+}
+
+
+@media (max-width: 400px) {
+    body {
+        background-image: url("../img/pattern-background-mobile.svg");
+    }
+}
